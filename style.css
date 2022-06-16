@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box; 
 }
-/* FLEXBOX STYLING */
+
 body{
     background-color: hsl(0, 0%, 95%);
     font-size: 14px;
@@ -153,5 +153,43 @@ main{
     font-size: 12px;
 }
 }
+@media screen and (max-width:600px){
+    main{
+            flex-direction: column;
+        
+        }
+    .box1{
+        margin-bottom: 5px;
+        border-radius: 0;
+        padding-left: 30px;
+        align-items: center;
+    }
+    .box2{
+        margin-bottom: 5px;
+    }
+    .box3{
+        border-radius: 0;
+    }
+    #button1{
+        margin-top: 30px;
+    }
+    #button2{
+        margin-top: 30px;
+    }
+    #button3{
+        margin-top: 30px;
+    }
+    #paragraph3{
+        font-size: 12px;
+    
+    }
+    #paragraph1{
+        font-size: 12px;
+    }
+    #paragraph2{
+        font-size: 12px;
+    }
+    }
+    
 
 
